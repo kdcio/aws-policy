@@ -1,7 +1,3 @@
-import debug from 'debug';
-
-const log = debug('kdc:aws-policy');
-
 /**
  * Resource format:
  * arn:aws:execute-api:{regionId}:{accountId}:{apiId}/{stage}/{httpVerb}/[{resource}/[{child-resources}]]
@@ -28,7 +24,6 @@ const generatePolicy = ({
   methodArn,
   resources,
 }) => {
-  log(context, principalId, effect, methodArn, resources);
   const authResponse = {
     context: { ...context },
     principalId,

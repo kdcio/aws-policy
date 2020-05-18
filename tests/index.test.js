@@ -1,7 +1,4 @@
-import debug from 'debug';
 import generatePolicy from '../src';
-
-const log = debug('test');
 
 describe('Generate Policy', () => {
   [
@@ -121,7 +118,6 @@ describe('Generate Policy', () => {
         methodArn: event.methodArn,
         resources,
       });
-      log(JSON.stringify(policy, null, 2));
       expect(policy).toEqual(expected);
     });
   });
