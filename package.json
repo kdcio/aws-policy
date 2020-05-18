@@ -19,6 +19,10 @@
     "email": "iandc76@gmail.com"
   },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kdcsoftware/aws-policy/issues"
+  },
+  "homepage": "https://github.com/kdcsoftware/aws-policy#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
