@@ -10,5 +10,5 @@
     "node": true,
     "jest": true
   },
-  "ignorePatterns": ["node_modules/", "coverage/", "lib/", "bin/"]
+  "ignorePatterns": ["node_modules/", "coverage/", "dist/", "bin/"]
 }

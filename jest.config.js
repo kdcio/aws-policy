@@ -6,7 +6,7 @@ module.exports = {
   collectCoverageFrom: ['src/**/*.js'],
   watchPathIgnorePatterns: [
     '<rootDir>/node_nodules/',
-    '<rootDir>/lib/',
+    '<rootDir>/dist/',
     '<rootDir>/coverage/',
   ],
   testResultsProcessor: 'jest-sonar-reporter',
