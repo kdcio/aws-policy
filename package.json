@@ -1,6 +1,6 @@
 {
   "name": "@kdcio/aws-policy",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Generate AWS auth policy for API Gateway lambda authorizer",
   "main": "dist/index.js",
   "files": [
