@@ -62,7 +62,7 @@
     "rollup-plugin-visualizer": "^4.1.1"
   },
   "dependencies": {
-    "@babel/runtime": "^7.12.1"
+    "@babel/runtime": "^7.12.5"
   },
   "targets": {
     "main": {
